@@ -1,0 +1,42 @@
+#download {
+  .card {
+    padding: 3rem 1.5rem 15rem;
+    position: relative;
+  }
+  
+  #person-singing {
+    position: absolute;
+    bottom: 0;
+    right: -3.5rem;
+    
+    & img {
+      width: 14.5rem;
+      display: block;
+    }
+  }
+  
+  .buttons {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  @media (width >= 80em) {
+    .card {
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    
+    #person-singing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      & img {
+        width: 29.125rem;
+        max-width: 24rem;
+      }
+    }
+  }
+}
