@@ -1,66 +1,83 @@
-🎤 Zingen - Aplicativo de Karaokê
+# 🎤 Zingen – Landing Page para Aplicativo de Karaokê
+
 <p align="center">
-  Landing page para um aplicativo de karaokê com design responsivo e acessível, utilizando técnicas modernas de CSS e HTML.
+  Uma experiência imersiva em design responsivo e acessível para um app de karaokê que dá voz a todos.  
 </p>
+
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aprendizados">Aprendizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#principais-aprendizados">Aprendizados</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#licença">Licença</a>
 </p>
-<br>
-<p align="center">
-  <img alt="Preview do site Zingen" src="./images/capa_projeto_zingen.png" width="100%">
-</p>
-🚀 Tecnologias
-Esse projeto foi desenvolvido com:
 
-HTML5 (semântico)
-CSS3 (com foco em responsividade)
-Figma (para visualização do design)
-ResponsivelyApp (para testes de responsividade)
-VSCode
+![Preview do Zingen](./images/capa_projeto_zingen.png)
 
-💻 Projeto
-Este projeto é uma landing page completa para o aplicativo de karaokê Zingen, com design responsivo que se adapta perfeitamente a dispositivos móveis e desktop. Implementei seções como hero, funcionalidades, planos e preços, e área de download, com foco na experiência do usuário e acessibilidade.
-👉 Você pode acessar o projeto online aqui:
-https://delquiare.github.io/Zingen/
-📚 Aprendizados
-Neste projeto, explorei e apliquei:
-🖥️ Responsividade Avançada
 
-Media queries com sintaxe moderna para breakpoints (desktop e mobile)
-Mobile-first como abordagem de desenvolvimento
-Uso do ResponsivelyApp para visualização simultânea em diferentes dispositivos
-Implementação de regras específicas para desktop/mobile com display: none/initial
+## Tecnologias
 
-📐 Layouts Complexos
+Esse projeto foi desenvolvido com as seguintes ferramentas:
 
-CSS Grid com grid-template-columns e grid-auto-flow para estruturas flexíveis
-grid-auto-columns: 1fr para colunas de tamanho igual
-Combinação de grid e flexbox para layouts híbridos
-Uso de max-width e margin-inline: auto para centralização responsiva
+- ✅ **HTML5** – estrutura semântica e acessível  
+- 🎨 **CSS3** – com foco total em responsividade e boas práticas  
+- ✏️ **Figma** – para replicar fielmente o layout  
+- 📱 **ResponsivelyApp** – testes em múltiplas resoluções  
+- 🛠️ **Visual Studio Code** – como editor principal
 
-♿ Acessibilidade
+---
 
-ARIA labels (aria-label) para melhorar a navegação por leitores de tela
-Estrutura HTML semântica com <section>, <header> e outros elementos apropriados
-Contraste adequado entre texto e fundo
-Links navegáveis por teclado com estilos de foco
+## Sobre o Projeto
 
-🎨 Técnicas CSS Avançadas
+O **Zingen** é uma landing page moderna, construída do zero para apresentar um aplicativo de karaokê de maneira clara, atrativa e funcional.
 
-Variáveis CSS (--max-width, --fs-price, etc.) para manutenção simplificada
-Sistema de espaçamento consistente com variáveis (--py-base, --py-lg, --py-xl)
-Seletores avançados como :nth-child() para estilizações específicas
-Classes utilitárias reutilizáveis para flexbox e alinhamentos
+Ela é composta por seções bem definidas:
 
-📱 Otimizações para Dispositivos
+- 🎯 Hero Section impactante  
+- 💡 Funcionalidades do app  
+- 💰 Planos e Preços  
+- 📲 Área de Download
 
-Carregamento condicional de imagens para diferentes tamanhos de tela
-Ajustes de tamanho de fonte e espaçamento baseados no dispositivo
-Elementos específicos para desktop/mobile para melhor uso do espaço disponível
+Tudo com foco em **experiência do usuário**, **acessibilidade** e **responsividade** — para que cante em qualquer dispositivo! 🎶
 
-:memo: Licença
-Esse projeto está sob a licença MIT.
-Feito por mim com 💻 e paixão por design responsivo durante meu aprendizado de front-end!
+🔗 **Acesse o projeto online:**  
+[https://delquiare.github.io/Zingen/](https://delquiare.github.io/Zingen/)
+
+---
+
+## Principais Aprendizados
+
+### 🖥️ Responsividade Avançada
+
+- Uso de **media queries** e abordagem **mobile-first**
+- Testes simultâneos com o **ResponsivelyApp**
+- Exibição condicional de elementos entre desktop e mobile
+
+### 📐 Layouts Complexos
+
+- Combinação de **CSS Grid** e **Flexbox**
+- Centralização inteligente com `margin-inline: auto`
+- Organização visual com espaçamentos coesos
+
+### ♿ Acessibilidade
+
+- Uso de **ARIA labels** para leitores de tela
+- Navegação por teclado com foco visível
+- Estrutura semântica com tags corretas (`<main>`, `<section>`, etc.)
+- Contrastes bem trabalhados
+
+### 🎨 Técnicas CSS Avançadas
+
+- Uso de **variáveis CSS** (`--fs-price`, `--py-xl`, etc.)
+- Seletores como `:nth-child()` para customizações
+- Espaçamento fluido e responsivo
+
+---
+
+## Licença
+
+Esse projeto está sob a licença **MIT**.
+
+Feito com 💻, café ☕ e muita dedicação durante minha jornada de aprendizado em front-end.
+
+---
+
