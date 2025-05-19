@@ -3,3 +3,10 @@ header {
     margin-right: auto;
   }
 }
+
+header nav a:hover {
+  color: transparent !important;
+  background-image: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
